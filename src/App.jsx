@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import Button from "./components/button";
+import Button from "./components/Button";
 import cellData from "./components/cell_info.json";
-import FlashCard from "./components/flashcard";
+import FlashCard from "./components/FlashCard";
 function App() {
   const [index, setIndex] = useState(0);
-  const [card, setCard] = useState(cellData[0]);
+  // const [card, setCard] = useState(cellData[0]);
   function handlePrevCard() {
     setIndex((prevIndex) => prevIndex - 1);
   }
@@ -29,6 +29,7 @@ function App() {
       >
         &rarr;
       </Button>
+      <Button>Shuffle Card</Button>
     </div>
   );
 }

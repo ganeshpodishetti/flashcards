@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='src/flashcard demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='src/demo 2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
